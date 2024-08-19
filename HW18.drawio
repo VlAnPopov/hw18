@@ -1,0 +1,225 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7">
+  <diagram name="Страница — 1" id="cBM444Y4VLN52Pbg_aGs">
+    <mxGraphModel dx="1114" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Internet" id="eKC45QAS6xHQ86Ac6Zk1-1">
+          <mxCell style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;labelPosition=center;" vertex="1" parent="1">
+            <mxGeometry x="516" y="10" width="95" height="62" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-3" target="eKC45QAS6xHQ86Ac6Zk1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-43" value="192.168.255.1/30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-16">
+          <mxGeometry x="-0.7221" y="-1" relative="1" as="geometry">
+            <mxPoint x="-49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-44" value="192.168.255.2/30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-16">
+          <mxGeometry x="0.724" y="1" relative="1" as="geometry">
+            <mxPoint x="-51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-3" value="&lt;div&gt;InetRouter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=left;outlineConnect=0;shape=mxgraph.citrix.router;labelPosition=right;fontColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="536" y="110" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-34" target="eKC45QAS6xHQ86Ac6Zk1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-56" value="&lt;div&gt;192.168.0.2/28&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-26">
+          <mxGeometry x="0.9062" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-4" target="eKC45QAS6xHQ86Ac6Zk1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-48" value="192.168.255.9/30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-29">
+          <mxGeometry x="-0.6499" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-49" value="192.168.255.10/30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-29">
+          <mxGeometry x="0.7641" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-4" value="CentralRouter" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=left;outlineConnect=0;shape=mxgraph.citrix.router;labelPosition=right;fontColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="536" y="220" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-5" target="eKC45QAS6xHQ86Ac6Zk1-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="113" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-68" value="192.168.2.1/26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-30">
+          <mxGeometry x="-0.732" y="3" relative="1" as="geometry">
+            <mxPoint x="-24" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-62" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-5" target="eKC45QAS6xHQ86Ac6Zk1-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-69" value="192.168.2.129/26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-62">
+          <mxGeometry x="-0.3264" y="3" relative="1" as="geometry">
+            <mxPoint x="-17" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-66" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-5" target="eKC45QAS6xHQ86Ac6Zk1-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-70" value="192.168.2.193/26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-66">
+          <mxGeometry x="-0.2026" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-5" value="&lt;div&gt;Office1Router&lt;/div&gt;" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=left;outlineConnect=0;shape=mxgraph.citrix.router;labelPosition=right;fontColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="425" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-75" target="eKC45QAS6xHQ86Ac6Zk1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-84" value="192.168.1.2/25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-31">
+          <mxGeometry x="0.768" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-8" target="eKC45QAS6xHQ86Ac6Zk1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-53" value="192.168.255.5/30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-32">
+          <mxGeometry x="0.5011" relative="1" as="geometry">
+            <mxPoint y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-55" value="192.168.255.6/30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-32">
+          <mxGeometry x="-0.7798" relative="1" as="geometry">
+            <mxPoint x="-25" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-78" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-8" target="eKC45QAS6xHQ86Ac6Zk1-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-82" value="192.168.1.129/26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-78">
+          <mxGeometry x="-0.0661" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-80" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-8" target="eKC45QAS6xHQ86Ac6Zk1-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-81" value="192.168.1.193/26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-80">
+          <mxGeometry x="-0.5069" y="-1" relative="1" as="geometry">
+            <mxPoint x="-37" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-8" value="&lt;div&gt;Office2Router&lt;/div&gt;" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;labelPosition=center;fontColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="688" y="420" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-9" value="Office1Server" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;" vertex="1" parent="1">
+          <mxGeometry x="230" y="660" width="65" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-10" value="Office2Server" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;" vertex="1" parent="1">
+          <mxGeometry x="810" y="700" width="65" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-11" value="CentralServer" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;" vertex="1" parent="1">
+          <mxGeometry x="950" y="300" width="65" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-4" target="eKC45QAS6xHQ86Ac6Zk1-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="591" y="238" as="sourcePoint" />
+            <mxPoint x="956" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-52" value="192.168.0.1/28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-35">
+          <mxGeometry x="-0.5396" y="-1" relative="1" as="geometry">
+            <mxPoint x="27" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-34" value="Directors" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="743" y="207.25" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-37" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-36" target="eKC45QAS6xHQ86Ac6Zk1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-45" value="192.168.0.33/28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-37">
+          <mxGeometry x="0.8614" y="2" relative="1" as="geometry">
+            <mxPoint x="-49" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-36" value="OfficeHardware" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="243" y="256.5" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-39" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-1" target="eKC45QAS6xHQ86Ac6Zk1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="753" y="32" as="sourcePoint" />
+            <mxPoint x="913" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-47" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-46" target="eKC45QAS6xHQ86Ac6Zk1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-50" value="192.168.0.65/26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-47">
+          <mxGeometry x="0.4427" y="2" relative="1" as="geometry">
+            <mxPoint x="-8" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-46" value="Wifi" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="733" y="120" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-57" value="Dev" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="65" y="500" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-60" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-59" target="eKC45QAS6xHQ86Ac6Zk1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-67" value="192.168.2.65/26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-60">
+          <mxGeometry x="0.4962" y="-2" relative="1" as="geometry">
+            <mxPoint x="-28" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-59" value="Test servers" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-73" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-61" target="eKC45QAS6xHQ86Ac6Zk1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-74" value="192.168.2.130/26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-73">
+          <mxGeometry x="0.6379" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-61" value="Managers" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="215" y="540" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-63" value="Office hardware" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="530" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eKC45QAS6xHQ86Ac6Zk1-8" target="eKC45QAS6xHQ86Ac6Zk1-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="743" y="438" as="sourcePoint" />
+            <mxPoint x="843" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-83" value="192.168.1.1/25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="eKC45QAS6xHQ86Ac6Zk1-76">
+          <mxGeometry x="-0.6055" relative="1" as="geometry">
+            <mxPoint x="22" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-75" value="Dev" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="795" y="490" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-77" value="Test servers" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="670" y="620" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="eKC45QAS6xHQ86Ac6Zk1-79" value="Office hardware" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="536" y="570" width="95" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
