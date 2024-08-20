@@ -7,12 +7,37 @@
       ansible.builtin.iptables:
         table: nat
         chain: POSTROUTING
-        destination: '! 192.168.0.0/16'
-        out_interface: eth0
+        destination: "!192.168.0.0/16"
+        out_interface: enp0s3
         jump: MASQUERADE
+    - name: Save iptables
+      community.general.iptables_state:
+        path: /etc/iptables_rules.ipv4
+        state: saved
+    - name: Create ipables-restore macro
+      ansible.builtin.blockinfile:
+        path: /etc/networkd-dispatcher/configured.d/iptables
+        create: true
+        mode: "+x"
+        marker: "{mark}"
+        marker_begin: "#!/bin/sh"
+        marker_end: "# END"
+        block: /sbin/iptables-restore < /etc/iptables_rules.ipv4
     - name: Enable forwarding
       ansible.posix.sysctl:
         name: net.ipv4.conf.all.forwarding
         value: '1'
         state: present
-  
+  roles:
+    - role: mrlesmithjr.netplan
+      netplan_enabled: true
+      netplan_config_file: /etc/netplan/60-vagrant.yaml
+      netplan_configuration:
+        network:
+          version: 2
+          renderer: networkd
+          ethernets:
+            enp0s8:
+              routes:
+                - to: 192.168.0.0/16
+                  via: 192.168.255.2

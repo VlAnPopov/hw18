@@ -1,6 +1,14 @@
 # -*- mode: ruby -*-
 # vim: set ft=ruby :
 
+# подгрузим нужную роль
+system("
+    if [ #{ARGV[0]} = 'up' ]; then
+        echo 'Importing role'
+        ansible-galaxy install -r requirements.yml -p roles/
+    fi
+")
+
 MACHINES = {
   :inetRouter => {
         :box_name => "ubuntu/22.04",
@@ -100,7 +108,7 @@ Vagrant.configure("2") do |config|
             ansible.playbook = boxconfig[:ansible]
           end
         end
-
+        box.vm.provision "reboot", type: "shell", inline: "", reboot: true
       end
 
   end
